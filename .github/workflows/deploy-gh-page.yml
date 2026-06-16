@@ -4,6 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
+      - "website"
       - "website/src/**"
       - ".github/workflows/deploy-gh-page.yml"
   workflow_dispatch:
